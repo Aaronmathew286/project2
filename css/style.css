@@ -4,7 +4,7 @@ body{
 }
 
 .main-div{
-    background-color:rgba(153, 101, 250, 0.548);
+    background-color:rgba(204, 80, 80, 0.548);
     width:100%;
     height:200vh;
 }
@@ -65,9 +65,27 @@ body{
     
 }
 #logo{
-    position: absolute;
-    left: 20px;
+
     color: aliceblue;
     font-size:45px;
-    text-shadow:2px 2px rgba(0, 0, 0, 0.637) ;
+    text-shadow:2px 2px rgba(0, 0, 0, 0.637);
+    margin-bottom:10px;
+}
+.img-div img{
+    width:38px;
+    height:38px;
+    text-shadow:2px 2px rgba(0, 0, 0, 0.637);
+
+}
+.img-div{
+    position: absolute;
+    left: 20px;
+    display: flex;
+
+}
+.img-div div{
+    background-color:white;
+    border-radius:50%;
+    padding:10px;
+    
 }
